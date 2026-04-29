@@ -16,6 +16,7 @@ int main () {
 	break;
 	default:
 		printf("código a ser executado se variável não for a nem b");
+		printf("código a ser executado se variável não for a nem b");
 	}
 
 
