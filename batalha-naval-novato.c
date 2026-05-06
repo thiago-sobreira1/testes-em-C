@@ -13,7 +13,7 @@ int main () {
 	*/
 
 	// Linha [i]  e  Coluna [j]
-	int tabuleiro [10][10] = {
+	int tabuleiro[10][10] = {
 		{"0","0","0","0","0","0","0","0","0","0"},
 		{"0","0","0","0","0","0","0","0","0","0"},
 		{"0","0","0","0","0","0","0","0","0","0"},
@@ -37,8 +37,10 @@ int main () {
 	//Imprimindo resultado
 	/* printf("Escolha uma posição na vertical (letra) e horizontal (número)"); */
 	/*
-	for (i = 0; i < 3; i++) {
-
+	for (int i = 0; i < 3; i++) {
+		for (int j = 0; j < 1; j++) {
+			printf("%d", tabuleiro[i][j]);
+		}
 	}
 	*/
 
